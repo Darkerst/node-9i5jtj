@@ -1,21 +1,17 @@
-// Allocating process module
-const process = require('process');
+// Include os module and create its object
+var os = require('os');
 
-// Calling process.cpuUsage() method
-var usage = process.cpuUsage();
-// Printing returned value
-console.log("cpu usage before: ", usage);
+// return the endianness of system
+console.log("Endianness of system: " + os.endianness());
 
-// Current time
-const now = Date.now();
+// It returns hostname of system
+console.log("Hostname: " + os.hostname());
 
-// Loop to delay almost 100 milliseconds
-while (Date.now() - now < 100);
+// It return operating system name
+console.log("Operating system name: " + os.type());
 
-// After using the cpu for nearly equal to
-// 100 milliseconds
-// Calling process.cpuUsage() method
-usage = process.cpuUsage(usage);
+// It returns the platform of os
+console.log('operating system platform: ' + os.platform());
 
-// Printing returned value
-console.log("Cpu usage by this process: ", usage);
+// It returns the operating systems release.
+console.log('OS release : ' + os.release());
