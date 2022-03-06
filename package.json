@@ -1,0 +1,19 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "cluster": "^0.7.7",
+    "createServer": "^3.0.0",
+    "http": "*",
+    "os": "^0.1.2",
+    "process": "^0.11.10",
+    "webpack": "^5.70.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
