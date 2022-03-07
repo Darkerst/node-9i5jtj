@@ -7,6 +7,7 @@
   "dependencies": {
     "browserify": "^17.0.0",
     "cluster": "^0.7.7",
+    "cpu-features": "^0.0.2",
     "createServer": "^3.0.0",
     "http": "*",
     "os": "^0.1.2",
